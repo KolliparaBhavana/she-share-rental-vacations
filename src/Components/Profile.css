@@ -1,0 +1,40 @@
+form .input{
+    position: relative;
+    left: 60px;
+    width: 200px;
+    height: 30px;
+    margin:5px 0;
+    /* background: aquamarine; */
+    border:none;
+    border-radius: 40px;
+}
+.input input{
+    background: transparent;
+    border: none;
+    width: 230px;
+    height: 40px;
+    border:2px solid grey;
+    color:white;
+    border-radius: 40px;
+}
+form .input-str{
+    position: relative;
+    left:60px;
+}
+form .input-chk{
+    position: relative;
+    left:60px;
+}
+.input-str input{
+    background: transparent;
+    border: none;
+    width: 230px;
+    height: 40px;
+    border:2px solid grey;
+    color:white;
+    border-radius: 40px;
+    
+}
+.input input::placeholder{
+    color:grey;
+}
